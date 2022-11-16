@@ -27,9 +27,13 @@ while (non=== ' '){
 }
 nouvoNon=non.toLowerCase()
  let maj=nouvoNon.split(' ')
+ let bonNon=''
+ for (let i=0;i<maj.length;i++){
+ 	bonNon=maj[i].toUpperCase()
+ }
  
 
-console.log(nouvoNon)
+console.log(bonNon)
 
 //#4
 
